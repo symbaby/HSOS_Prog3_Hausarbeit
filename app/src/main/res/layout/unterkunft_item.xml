@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4073F5FA"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/text_view_unterkunft_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:text="Name"
+                    android:padding="8dp">
+
+                </TextView>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+
+                    android:id="@+id/text_view_unterkunft_unterkufttyp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unterkunftstyp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_view_unterkunft_land"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Land"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/text_view_unterkunft_stadt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stadt"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_marginStart="16dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AufenthaltsDauer"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/text_view_unterkunft_dauer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dauer"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Tag"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_unterkunft_preis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preis"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:padding="8dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bewertung"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/text_view_unterkunft_bewertung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bewertung"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:padding="8dp">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

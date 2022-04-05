@@ -1,0 +1,42 @@
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz
+    Erstellt mit AdobeXD -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="428dp"
+    android:height="926dp"
+    android:viewportWidth="428"
+    android:viewportHeight="926">
+  <path
+      android:pathData="M0,0H428V926H0Z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="0"
+          android:startX="214"
+          android:endY="926"
+          android:endX="214"
+          android:type="linear">
+        <item android:offset="0" android:color="#80E89609"/>
+        <item android:offset="0.272" android:color="#A2E1E809"/>
+        <item android:offset="0.482" android:color="#FFDED690"/>
+        <item android:offset="1" android:color="#A655B1EF"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M0,0H428V926H0Z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="0"
+          android:startX="214"
+          android:endY="926"
+          android:endX="214"
+          android:type="linear">
+        <item android:offset="0" android:color="#80E89609"/>
+        <item android:offset="0.272" android:color="#A2E1E809"/>
+        <item android:offset="0.482" android:color="#FFDED690"/>
+        <item android:offset="1" android:color="#A655B1EF"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+</vector>

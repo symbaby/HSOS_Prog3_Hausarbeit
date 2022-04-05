@@ -1,0 +1,14 @@
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz
+    Paperplane Model aus AdobeXD-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="231.596dp"
+    android:height="244.048dp"
+    android:viewportWidth="231.596"
+    android:viewportHeight="244.048">
+  <path
+      android:pathData="M212.259,22.911 L18.776,119.81c-7.555,3.766 -7.573,14.493 -0.722,18.322l40.465,22.516L181.679,63.648c2.36,-1.879 5.173,1.556 3.101,3.804L78.515,183.077l-2.97,33.999c-0.871,9.968 10.077,14.881 16.25,8.143l28.008,-30.451 47.435,26.359c5.404,3.025 12.15,-0.173 13.745,-6.545L225.446,34.616C227.539,26.202 219.476,19.285 212.259,22.911Z"
+      android:strokeWidth="8.998133"
+      android:fillColor="#fff2f2"
+      android:strokeColor="#000"/>
+</vector>

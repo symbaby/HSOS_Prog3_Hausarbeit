@@ -1,0 +1,190 @@
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz -->
+<resources>
+    <string name="app_name">Reisetagebuch</string>
+
+
+    <!-- Reise Activity -->
+    <string name="ReiseUebersicht">Reise Übersicht</string>
+    <string name="BezeichnungReisetagebuch">Reisetagebuch</string>
+    <string name="Tage">Tage</string>
+    <string name="Bewertung">Bewertung:</string>
+    <string name="Anreisedatum">Anreisedatum:</string>
+    <string name="Abreisedatum">Abreisedatum:</string>
+    <string name="AlleReisenWurdenGeloescht">Alle Reisen wurden gelöscht</string>
+    <string name="ReiseWurdeErstellt">Reise wurde erstellt</string>
+    <string name="ReiseWurdeVerworfen">Reise wurde verworfen</string>
+    <string name="AlleReisenLoeschen">Alle Reisen löschen</string>
+    <string name="ReiseBearbeiten">Reise bearbeiten</string>
+    <string name="Hinterlegen">Reisename, Land und Foto hinterlegen</string>
+    <string name="SpracheAendern">Sprache ändern</string>
+    <string name="SpracheAnsage">Sprache gewechselt zu deutsch</string>
+
+    <!-- AddEdit Reise -->
+    <string name="ReiseHinzufuegen">Reise hinzufügen</string>
+    <string name="ReiseTitel">Reisetitel:</string>
+    <string name="Reisename">Reisename</string>
+    <string name="ReisetypSetzen">Reisetyp setzen:</string>
+    <string name="Ort">Ort:</string>
+    <string name="Land">Land</string>
+    <string name="LandDoppel">Land:</string>
+    <string name="Stadt">Stadt (optional)</string>
+    <string name="StadtDoppel">Stadt:</string>
+    <string name="Provinz">Provinz (optional)</string>
+    <string name="KontinentSetzen">Kontinent setzen:</string>
+    <string name="Dauer">Dauer:</string>
+    <string name="Reisende">Reisende:</string>
+    <string name="Visumkosten">Visumkosten:</string>
+    <string name="Person">Person\en</string>
+
+
+
+    <!-- Reisemittel Activity Übersicht -->
+    <string name="ReisemittelTyp">Reisemitteltyp:</string>
+    <string name="ReisemittelUebersicht">Reisemittel Übersicht</string>
+    <string name="ReisemittelHinzufuegen">Reisemittel hinzufügen</string>
+    <string name="AlleReisemittelLoeschen">Alle Reisemittel löschen</string>
+    <string name="ReisemittelWurdeGeloescht">Reisemittel wurde gelöscht</string>
+    <string name="ReisemittelWurdeHinzugefügt">Reisemittel wurde hinzugefügt</string>
+
+    <!-- Unterkunft Übersicht-->
+    <string name="UnterkunftUebersicht">Unterkunft Übersicht</string>
+    <string name="AlleUnterkuenfteLoeschen">Alle Unterkünfte löschen</string>
+    <string name="AufenthaltsDauer">Aufenthaltsdauer:</string>
+    <string name="Tag">Tag\e</string>
+
+
+    <!-- AddUnterkünfte -->
+    <string name="UnterkunftHinzufuegen">Unterkunft hinzufügen</string>
+    <string name="Name">Name:</string>
+    <string name="NamenEingeben">Namen eingeben</string>
+    <string name="Unterkunftstyp">Unterkunftstyp:</string>
+    <string name="Preis">Preis:</string>
+    <string name="UnterkunftWurdeHinzugefuegt">Unterkunft wurde hinzugefügt</string>
+    <string name="UnterkunftWurdeVerworfen">Unterkunft wurde verworfen</string>
+    <string name="UnterkunftWurdeGeloescht">Unterkunft wurde gelöscht</string>
+
+    <!-- AddTag -->
+    <string name="DatumAnlegen">Datum anlegen</string>
+    <string name="TagHinzufuegen">Tag hinzufügen</string>
+    <string name="AlleTageLoeschen">Alle Tage löschen</string>
+    <string name="TagWurdeGeloescht">Tag wurde gelöscht</string>
+    <string name="TagWurdeHinzugefuegt">Tag wurde hinzugefügt</string>
+    <string name="TagWurdeVerworfen">Tag wurde verworfen</string>
+
+    <string name="Januar">Januar</string>
+    <string name="Februar">Februar</string>
+    <string name="Maerz">Maerz</string>
+    <string name="April">April</string>
+    <string name="Mai">Mai</string>
+    <string name="Juni">Juni</string>
+    <string name="Juli">Juli</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="Oktober">Oktober</string>
+    <string name="November">November</string>
+    <string name="Dezember">Dezember</string>
+
+    <!-- Aktivität -->
+    <string name="AktivitaetUbersicht">Aktivität Übersicht</string>
+    <string name="AktivitaetHinzufuegen">Aktivität hinzufügen</string>
+    <string name="ArtDerAktivitaet">Art der Aktivität:</string>
+    <string name="Uhrzeit">Uhrzeit:</string>
+    <string name="Kosten">Kosten:</string>
+    <string name="KostenEingeben">Kosten eingeben</string>
+    <string name="Beschreibung">Beschreibung:</string>
+    <string name="BeschreibungDerAktivitaet">Beschreibung der Aktivität</string>
+    <string name="AktivitaetWurdeGeloescht">Aktivität wurde gelöscht</string>
+    <string name="AlleAktivitaetenWurdeGeloescht">Alle Aktivitäten wurden gelöscht</string>
+    <string name="AktivitaetWurdeHinzugefuegt">Aktivität wurde hinzugefügt</string>
+    <string name="AktivitaetWurdeVerworfen">Aktivität wurde verworfen</string>
+
+
+    <string name="ReiseWurdeGeloescht">Reise wurde gelöscht</string>
+    <string name="ReiseWurdeBearbeitet">Reise wurde bearbeitet</string>
+    <string name="ReisemittelWurdeVerworfen">Reisemittel wurde verworfen</string>
+    <string name="AlleReisemittelWurdenGeloescht">Alle Reisemittel wurden gelöscht</string>
+    <string name="TagUebersicht">Tag Übersicht</string>
+    <string name="AlleTageWurdenGeloescht">Alle Tage wurden gelöscht</string>
+    <string name="AlleUnterkuenfteWurdenGeloescht">Alle Unterkünfte wurden gelöscht</string>
+    <string name="AlleAktivitaetenLoeschen">Alle Aktivitäten löschen</string>
+
+    <string name="Afrika">Afrika</string>
+    <string name="Antarktis">Antarktis</string>
+    <string name="Asien">Asien</string>
+    <string name="Australien">Australien</string>
+    <string name="Europa">Europa</string>
+    <string name="Nordamerika">Nordamerika</string>
+    <string name="Suedamerika">Suedamerika</string>
+
+    <string name="Staedtereise">Städtereise</string>
+    <string name="Kulturreise">Kulturreise</string>
+    <string name="Aktivurlaub">Aktivurlaub</string>
+    <string name="Strandurlaub">Strandurlaub</string>
+    <string name="Wanderurlaub">Wanderurlaub</string>
+    <string name="Wellnesurlaub">Wellnesurlaub</string>
+    <string name="sonstige">sonstige</string>
+
+    <string name="Auto">Auto</string>
+    <string name="Bus">Bus</string>
+    <string name="Flugzeug">Flugzeug</string>
+    <string name="Zug">Zug</string>
+
+    <string name="Hotel">Hotel</string>
+    <string name="Hostel">Hostel</string>
+    <string name="Airbnb">Airbnb</string>
+    <string name="privat">privat</string>
+    <string name="outdoor">outdoor</string>
+
+    <string name="Restaurant">Restaurant</string>
+    <string name="Sehenswuerdigkeit">Sehenswürdigkeit</string>
+    <string name="Tanzveranstaltung">Tanzveranstaltung</string>
+    <string name="Kulturveranstaltung">Kulturveranstaltung</string>
+    <string name="Sportaktivitaet">Sportaktivität</string>
+
+    <string-array name="kontinente">
+        <item>Afrika</item>
+        <item>Antarktis</item>
+        <item>Asien</item>
+        <item>Australien</item>
+        <item>Europa</item>
+        <item>Nordamerika</item>
+        <item>Suedamerika</item>
+    </string-array>
+
+    <string-array name="reisetypen">
+        <item>Aktivurlaub</item>
+        <item>Kulturreise</item>
+        <item>Staedtereise</item>
+        <item>Strandurlaub</item>
+        <item>Wanderurlaub</item>
+        <item>Wellnesurlaub</item>
+        <item>sonstige</item>
+    </string-array>
+
+    <string-array name="reisemittel">
+        <item>Auto</item>
+        <item>Bus</item>
+        <item>Flugzeug</item>
+        <item>Zug</item>
+        <item>Sonstiges</item>
+    </string-array>
+
+    <string-array name="unterkunfttyp">
+        <item>Hotel</item>
+        <item>Hostel</item>
+        <item>Airbnb</item>
+        <item>privat</item>
+        <item>outdoor</item>
+    </string-array>
+
+    <string-array name="aktivitaettyp">
+        <item>Restaurant</item>
+        <item>Sehenswürdigkeit</item>
+        <item>Tanzveranstaltung</item>
+        <item>Kulturveranstaltung</item>
+        <item>Sportaktivität</item>
+        <item>sonstige</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_hintergrund"
+    tools:context=".add.AddUnterkunftActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:layout_margin="8dp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_unterkunft_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="@string/NamenEingeben">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:text="@string/Unterkunftstyp">
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinner_unterkunft_typ"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LandDoppel"
+                android:layout_margin="8dp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_unterkunft_land"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="@string/NamenEingeben">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StadtDoppel"
+                android:layout_margin="8dp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_unterkunft_stadt"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="@string/NamenEingeben">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Dauer"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                >
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_unterkunft_dauer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </NumberPicker>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bewertung"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_vertical"
+                >
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_unterkunft_bewertung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+
+                >
+
+            </NumberPicker>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Kosten"
+                android:layout_margin="8dp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_unterkunft_preis"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:inputType="number"
+                android:hint="@string/KostenEingeben">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

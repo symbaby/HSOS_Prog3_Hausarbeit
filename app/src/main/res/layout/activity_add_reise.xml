@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Die Datei ist in Pair-Programming entstanden.
+    Authoren des Codes: Johannes Belaschow, Berkan Yildiz -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add.AddEditReiseActivity"
+    android:background="@drawable/ic_hintergrund"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="@string/ReiseTitel">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_reisename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Reisename"
+                android:layout_margin="8dp"
+                android:inputType="text">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="@string/ReisetypSetzen">
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinner_reisetyp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_margin="8dp">
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/image_view_reise_bild"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_launcher_round">
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="@string/Ort">
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_text_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Land"
+                android:inputType="text"
+                android:layout_margin="8dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/edit_text_stadt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Stadt"
+                android:inputType="text"
+               android:layout_margin="8dp">
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text_provinz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Provinz"
+                android:inputType="text"
+
+                android:layout_marginLeft="65dp"
+
+                >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/KontinentSetzen"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large">
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinner_kontinent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="8dp">
+            </Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Dauer"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_dauer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+            </NumberPicker>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Reisende"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_anzahl_reisende"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_margin="8dp">
+            </NumberPicker>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bewertung"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_bewertung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp">
+            </NumberPicker>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Visumkosten"
+                android:layout_margin="8dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:layout_gravity="center_vertical">
+            </TextView>
+
+            <NumberPicker
+                android:id="@+id/numberpicker_visumkosten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin= "35dp">
+            </NumberPicker>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Anreisedatum"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_gravity="center">
+        </TextView>
+
+        <DatePicker
+            android:id="@+id/date_picker_anreisedatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_gravity="center"
+            android:paddingTop="8dp">
+        </DatePicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Abreisedatum"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_gravity="center">
+        </TextView>
+
+        <DatePicker
+            android:id="@+id/date_picker_abreisedatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_gravity="center"
+            android:paddingTop="8dp">
+        </DatePicker>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
